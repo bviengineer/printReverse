@@ -2,8 +2,8 @@
 
 var arrayOfColors = ["red", "blue", "pink", "brown", "black", "green", "yellow", "orange"];
 
-function reverseArray(arrayOfColors){
-    var reversedArr = arrayOfColors;
+function reverseArray(arr){
+    var reversedArr = arr;
     reversedArr.reverse();
     for(var i = 0; i < reversedArr.length; i++){
         console.log(reversedArr[i]);
